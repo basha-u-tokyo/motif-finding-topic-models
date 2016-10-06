@@ -17,8 +17,7 @@ R:
 
 To run the program, the following command is used:
 
-```perl ctm_motif_search.pl -input_file={input_file} -output_file={output_file} -stats_file={stats_file} -min_length={min_length} -max_length={max_length} -population_size={population_size} -number_of_motifs={number_of_motifs} -generations={generations} -instances_per_indiv={instances_per_indiv}
-```
+`perl ctm_motif_search.pl -input_file={input_file} -output_file={output_file} -stats_file={stats_file} -min_length={min_length} -max_length={max_length} -population_size={population_size} -number_of_motifs={number_of_motifs} -generations={generations} -instances_per_indiv={instances_per_indiv}`
 
 where the parameters are as follows:
 
@@ -36,8 +35,7 @@ Example:
 
 To test the program, you can run the following command for the example provided:
 
-```perl ctm_motif_search.pl -input_file=example.fasta -output_file=test_result.txt -stats_file=test_stats.txt -min_length=6 -max_length=15 -population_size=50 -number_of_motifs=10 -generations=20 -instances_per_indiv=100
-```
+`perl ctm_motif_search.pl -input_file=example.fasta -output_file=test_result.txt -stats_file=test_stats.txt -min_length=6 -max_length=15 -population_size=50 -number_of_motifs=10 -generations=20 -instances_per_indiv=100`
 
 The output will be a list of motifs ordered by perplexity, each one of them with the format of the assessment created by Tompa et al at the [University of Washington](http://bio.cs.washington.edu/assessment/format.txt)
 
@@ -59,8 +57,7 @@ The Perl code uses also some modules that have some parts coded in C, so a C com
 
 To run the program, the following command is used:
 
-```./statGA.sh {input_file} {stats_file} {output_file}
-```
+`./statGA.sh {input_file} {stats_file} {output_file}`
 
 where the parameters are as follows:
 
@@ -72,7 +69,6 @@ Example:
 
 To test the program, you can run the following command for the example provided:
 
-```./statGA.sh example.fasta test_stats.txt test_output.txt
-```
+`./statGA.sh example.fasta test_stats.txt test_output.txt`
 
 The output will be a list of motifs ordered by perplexity, each one of them with the format of the assessment created by Tompa et al at the [University of Washington](http://bio.cs.washington.edu/assessment/format.txt)
