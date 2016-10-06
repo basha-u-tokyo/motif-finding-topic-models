@@ -3,6 +3,7 @@ This program is coded in Perl and R and the installation of the following packag
 
 Perl:
 - bioperl
+- PDL
 
 R:
 - NLP
